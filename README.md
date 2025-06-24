@@ -4,10 +4,11 @@ Este proyecto es una aplicación web interactiva desarrollada con Streamlit para
 
 ## Ver la aplicación en vivo
 
-Puedes acceder a la aplicación desplegada en Render aquí:
 [https://tablero-coches-streamlit.onrender.com/](https://tablero-coches-streamlit.onrender.com/)
 
 ## Estructura del proyecto
+
+```python
 - `app.py`: El código principal de la aplicación Streamlit.
 - `vehicles_us.csv`: El conjunto de datos de anuncios de coches.
 - `requirements.txt`: Lista de dependencias del proyecto.
