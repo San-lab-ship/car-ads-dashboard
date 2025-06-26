@@ -4,7 +4,7 @@ Este proyecto es una aplicación web interactiva desarrollada con Streamlit para
 
 ## Descripción del Problema
 
-Este proyecto aborda un análisis exploratorio de un conjunto de datos de anuncios de venta de coches usados en Estados Unidos. Aunque el dataset ofrece múltiples dimensiones para el análisis, el enfoque de este trabajo no se centra en modelado predictivo ni inferencias estadísticas, sino en entender la calidad y distribución de los datos, identificar patrones relevantes y sentar las bases para futuras investigaciones más profundas.
+El propósito de este proyecto fue transformar un conjunto de datos extenso y con baja calidad estructural, relacionado con anuncios de coches usados en EE. UU., el cual presentaba errores de formato, valores faltantes y variables mal definidas, en una plataforma analítica clara, confiable y accesible. Para ello, se llevó a cabo un riguroso proceso de Análisis Exploratorio de Datos (EDA), acompañado de una fase de preprocesamiento robusta que incluyó la evaluación detallada de la calidad de la información, la imputación estratégica de valores ausentes y la estandarización de atributos clave. Este trabajo culminó en el desarrollo de un panel interactivo utilizando Streamlit, publicado a través de Render.com, con el objetivo de facilitar el acceso a información relevante y fomentar decisiones informadas basadas en datos dentro del mercado de vehículos usados.
 
 ## Arquitectura del Proyecto
 ![image](https://github.com/user-attachments/assets/4bfd4bac-0e45-4998-b8c3-83512f07da45)
