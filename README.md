@@ -1,4 +1,4 @@
-# Análisis de Anuncios de Venta de Coches
+# Tablero Coches: Un Dashboard Interactivo con Streamlit, Desplegado en Render
 
 Este proyecto es una aplicación web interactiva desarrollada con Streamlit para el análisis exploratorio de datos de anuncios de anuncios de venta de coches. Permite a los usuarios visualizar distribuciones y relaciones entre diferentes características de los vehículos a través de histogramas y gráficos de dispersión.
 
@@ -32,7 +32,6 @@ Este proyecto aborda un análisis exploratorio de un conjunto de datos de anunci
 ## Visualizaciones
 
 - **Tablero Coches**
-
 [https://tablero-coches-streamlit.onrender.com/](https://tablero-coches-streamlit.onrender.com/)
 
 - **Distribución de Precios**  
@@ -44,15 +43,21 @@ Este proyecto aborda un análisis exploratorio de un conjunto de datos de anunci
 
 ## Tecnologías Utilizadas
 
-✔️ Python 3.10  
-✔️ Pandas  
-✔️ NumPy  
-✔️ Scikit-learn  
-✔️ Plotly  
-✔️ Folium  
-✔️ Jupyter Notebook / Google Colab  
-✔️ Joblib  
-✔️ Draw.io (para esquemas y diagramas)
+✔️ Python 3.10
+✔️ Pandas
+✔️ NumPy
+✔️ Scikit-learn
+✔️ Plotly
+✔️ Seaborn
+✔️ Matplotlib
+✔️ Folium
+✔️ Jupyter Notebook / Google Colab
+✔️ Joblib
+✔️ Streamlit
+✔️ io
+✔️ google.colab.files
+✔️ Draw.io
+✔️ Render
 
 ## Conclusión del Proyecto
 
