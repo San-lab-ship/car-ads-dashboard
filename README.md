@@ -56,7 +56,11 @@ Este proyecto aborda un análisis exploratorio de un conjunto de datos de anunci
 
 ## Conclusión del Proyecto
 
-Este proyecto ha logrado un análisis exploratorio inicial y visualizaciones claras de un conjunto de datos sobre anuncios de vehículos usados. Se aplicaron técnicas efectivas de limpieza de datos y se utilizaron gráficos para comprender la estructura y las relaciones del dataset. Estos primeros hallazgos ofrecen una base sólida para trabajos posteriores que podrían incluir predicción de precios, segmentación de mercado o estudios regionales sobre comportamiento de ventas.
+El conjunto de datos original contenía 51,525 registros y 13 atributos, pero presentaba importantes desafíos de completitud: 3,619 valores nulos en model_year, 5,260 en cylinders, 7,892 en odometer, y cerca del 50 % de los registros sin información en is_4wd. Durante la etapa de preparación de datos, se imputó la mediana para model_year y se eliminaron las filas con valores nulos en campos críticos como price, odometer, cylinders y condition, lo que resultó en un conjunto limpio de 39,185 registros, equivalente a una reducción del ~23.9 %.
+
+El análisis estadístico posterior mostró que la variable price presenta una fuerte asimetría positiva, con una media cercana a los $12,132, una mediana de $9,000 y un valor máximo extremo de $375,000. Por su parte, el odometer exhibe una media de aproximadamente 115,553 millas, una mediana de 113,000 y un rango que se extiende hasta las 990,000 millas, lo cual refleja una considerable heterogeneidad en el uso de los vehículos.
+
+Estas observaciones estadísticas respaldan las visualizaciones desarrolladas, permitiendo una interpretación sólida sobre la distribución de precios y su relación con el kilometraje, aportando así una base confiable para futuras investigaciones sobre el comportamiento del mercado de vehículos usados en EE. UU.
 
 ## Estructura del proyecto
 
