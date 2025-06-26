@@ -39,7 +39,8 @@ Este proyecto aborda un análisis exploratorio de un conjunto de datos de anunci
 ![image](https://github.com/user-attachments/assets/17de7644-d5f9-4936-a920-c2a976f4e99b)
 
 - **Relación Precio vs Kilometraje**  
-![image](https://github.com/user-attachments/assets/8be38f7b-b54f-4b48-8f28-4b004dd94a02)
+![image](https://github.com/user-attachments/assets/dd519114-7040-4b60-a30e-fa138298e6ab)
+
 
 ## Tecnologías Utilizadas
 
@@ -60,9 +61,11 @@ Este proyecto ha logrado un análisis exploratorio inicial y visualizaciones cla
 ## Estructura del proyecto
 
 ```python
-- `app.py`: El código principal de la aplicación Streamlit.
-- `vehicles_us.csv`: El conjunto de datos de anuncios de coches.
-- `requirements.txt`: Lista de dependencias del proyecto.
-- `notebooks/EDA.ipynb`: Jupyter Notebook con el análisis exploratorio de datos.
-- `.gitignore`: Archivo para especificar archivos y directorios a ignorar por Git.
-- `README.md`: Este archivo, con la descripción del proyecto.
+.
+├── app.py               # Código principal de la aplicación Streamlit
+├── vehicles_us.csv      # Conjunto de datos de anuncios de coches
+├── requirements.txt     # Lista de dependencias del proyecto
+├── .gitignore           # Archivos y carpetas ignoradas por Git
+├── README.md            # Documentación del proyecto
+└── notebooks
+    └── EDA.ipynb        # Análisis exploratorio de datos en Jupyter Notebook
